@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="left-header">
+            <div class="logo-container">
+                <a href="Index.html">
+                    <img src="images/SWIGGY.NS.png" alt="Swiggy Logo" class="swiggy-logo">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Restaurants.html">Restaurants</a></li>
+                    <li><a href="cart.html">Cart 🛒</a></li>
+                </ul>
+            </div>
+        </div>
+        <button id="themeBtn" class="theme-toggle-btn" onclick="toggleTheme()">☀️ Light Mode</button>
+    </div>
+
+    <section class="menu-banner">
+        <img id="restaurantBanner" src="">
+        <div class="menu-overlay">
+            <h1 id="restaurantName"></h1>
+            <p id="restaurantDetails"></p>
+        </div>
+    </section>
+
+    <div id="menuContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
