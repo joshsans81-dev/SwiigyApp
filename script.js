@@ -6,7 +6,7 @@ const restaurants = [
     id: "mcdonalds",
     name: "McDonald's",
     category: "burger",
-    image: "images/mcd-logo.jpg", 
+    image: "mcd-logo.jpg", 
     offer: "40% OFF",
     rating: "4.5",
     time: "25 mins",
@@ -17,7 +17,7 @@ const restaurants = [
     id: "burgerking",
     name: "Burger King",
     category: "burger",
-    image: "images/burger-king.jpg",
+    image: "burger-king.jpg",
     offer: "BUY 1 GET 1",
     rating: "4.4",
     time: "28 mins",
@@ -28,7 +28,7 @@ const restaurants = [
     id: "pizzahut",
     name: "Pizza Hut",
     category: "pizza",
-    image: "images/Pizza-Hut-Logo.jpg",
+    image: "Pizza-Hut-Logo.jpg",
     offer: "50% OFF",
     rating: "4.7",
     time: "30 mins",
@@ -39,7 +39,7 @@ const restaurants = [
     id: "dominos",
     name: "Dominos",
     category: "pizza",
-    image: "images/dominos-logo.png",
+    image: "dominos-logo.png",
     offer: "30% OFF",
     rating: "4.5",
     time: "22 mins",
@@ -50,7 +50,7 @@ const restaurants = [
     id: "sagarratna",
     name: "Sagar Ratna",
     category: "south",
-    image: "image/sagarratna_card.jpg",
+    image: "sagarratna_card.jpg",
     offer: "PURE VEG",
     rating: "4.6",
     time: "20 mins",
@@ -61,7 +61,7 @@ const restaurants = [
     id: "punjabidhaba",
     name: "Punjabi Dhaba",
     category: "north",
-    image: "image/punjabidhaba_card.jpg",
+    image: "punjabidhaba_card.jpg",
     offer: "BUY 1 GET 1",
     rating: "4.4",
     time: "35 mins",
@@ -76,7 +76,7 @@ const restaurants = [
 const restaurantMenus = {
   mcdonalds: {
     name: "McDonald's",
-    banner: "images/mcdbanner.png",
+    banner: "mcdbanner.png",
     details: "⭐ 4.5 • 25 mins • Fast Food",
     categories: {
       "🔥 Value Meals & Combos": [
@@ -105,7 +105,7 @@ const restaurantMenus = {
   },
   burgerking: {
     name: "Burger King",
-    banner: "images/home-bk-wall.jpg",
+    banner: "home-bk-wall.jpg",
     details: "⭐ 4.4 • 28 mins • Burger • Fries",
     categories: {
       "👑 Ultimate Whopper Meals": [
@@ -125,7 +125,7 @@ const restaurantMenus = {
   },
   pizzahut: {
     name: "Pizza Hut",
-    banner: "images/Pizza-hut-Banner.jpg",
+    banner: "Pizza-hut-Banner.jpg",
     details: "⭐ 4.7 • 30 mins • Pizza",
     categories: {
       "🔥 Box Meals & Combos": [
@@ -145,7 +145,7 @@ const restaurantMenus = {
   },
   dominos: {
     name: "Dominos",
-    banner: "image/dominos_banner.jpg",
+    banner: "dominos_banner.jpg",
     details: "⭐ 4.5 • 22 mins • Pizza • Cheese Burst",
     categories: {
       "🔥 Combo Deals": [
@@ -162,7 +162,7 @@ const restaurantMenus = {
   },
   sagarratna: {
     name: "Sagar Ratna",
-    banner: "image/sagarratna_banner.jpg",
+    banner: "sagarratna_banner.jpg",
     details: "⭐ 4.6 • 20 mins • South Indian",
     categories: {
       "☀️ Breakfast Platter Combos": [
@@ -184,7 +184,7 @@ const restaurantMenus = {
   },
   punjabidhaba: {
     name: "Punjabi Dhaba",
-    banner: "image/punjabidhaba_banner.jpg",
+    banner: "punjabidhaba_banner.jpg",
     details: "⭐ 4.4 • 35 mins • North Indian",
     categories: {
       "🔥 Highway Special Combos": [
